@@ -1,6 +1,6 @@
 const mergeAlternately: (word1: string, word2: string) => string = function (
-  word1: string,
-  word2: string
+  word1,
+  word2
 ) {
   const greatestLen = Math.max(word1.length, word2.length);
   var merged = '';
